@@ -1,4 +1,5 @@
 
+
 .content-top {
   position: relative;
   width: 100%;
@@ -109,7 +110,7 @@ ul li:hover {
 .img {
   width: 700px;
   padding-left: 60px;
-  filter: drop-shadow(0px 7px 10px rgba(192, 185, 131, 0.598));
+  filter: drop-shadow(5px 7px 10px rgba(192, 131, 181, 0.671));
   animation: levitate 2s infinite alternate; /* Adjust the duration and other animation properties as needed */
   /* background-color: gray; */
   /* border-radius: 50%; */
@@ -134,20 +135,17 @@ ul li:hover {
   margin: 0 auto;
   align-items: center;
 }
-
-.quickinfo{
-  height: 400px;
+.quickinfo {
+  height: 600px;
   width: 40%;
-  /* background-color: gray; */
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  align-items:flex-start;
-  margin-top: -130px;
-  padding-left: 50px;
+  align-items: flex-start;
+  /* margin-top: -130px; */
+  padding: 50px;
   /* background-color: gray; */
-
 }
 .quickinfo h1{
   font-size: 60px;
@@ -157,5 +155,102 @@ ul li:hover {
 }
 #jobTitle{
   font-size: 30px;
+  height: 50px;
 
+}
+.quickinfo p {
+  font-family: "Gill Sans", sans-serif;
+  font-weight: 100; /* Adjust the font weight to make it slimmer */
+  line-height: 1.6; /* Increase the line height for better readability */
+  letter-spacing: 0.05em; /* Adjust the letter spacing to add more space between words */
+}
+.icon{
+  width: 300px;
+  height: 100px;
+
+}
+.social-icons {
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px; /* Adjust spacing between icons */
+  color: #ffffff; /* Adjust icon color */
+}
+
+.social-icons a:last-child {
+  margin-right: 0; /* Remove margin for the last icon */
+}
+
+
+
+/* skills  */
+.skills {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Align icons horizontally */
+  background-color: rgb(241, 0, 0);
+  padding-top: 90px;
+  /* height: 300px; */
+}
+
+.icons-container a{
+  margin: 50px;
+}
+
+.icons-container {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.icons-container a {
+  margin: 50px;
+  animation: levitate 2s ease infinite alternate;
+}
+
+/* Define levitating animation */
+@keyframes levitate {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* Adjust the height of levitation */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Add different animation delays to each icon */
+.icons-container a:nth-child(1) {
+  animation-delay: 0.5s;
+}
+
+.icons-container a:nth-child(2) {
+  animation-delay: 0.3s
+}
+.icons-container a:nth-child(3) {
+  animation-delay: 0.5s;
+}
+
+.icons-container a:nth-child(4) {
+  animation-delay: 0,2s
+}
+.icons-container a:nth-child(5) {
+  animation-delay: 0.7s;
+}
+
+.icons-container a:nth-child(6) {
+  animation-delay: 0,4s
+}
+.icons-container a:nth-child(7) {
+  animation-delay: 0.7s;
+}
+
+.icons-container a:nth-child(8) {
+  animation-delay: 0,1s
 }
