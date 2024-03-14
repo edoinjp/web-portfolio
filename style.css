@@ -1,3 +1,7 @@
+a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit color from parent */
+}
 
 
 .content-top {
@@ -27,7 +31,7 @@
 
 .content-middle {
   width: 100%;
-  height: 1700px;
+  height: 1900px;
   position: relative;
   box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.744);
 }
@@ -286,7 +290,7 @@ ul li:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 .slidertext h1{
   font-size: 35px;
@@ -305,4 +309,45 @@ ul li:hover {
   text-align: center;
   padding-top: 40px;
 
+}
+
+.projectinfo{
+  height: 400px;
+}
+.left{
+  align-items: flex-end;
+  height: 400;
+}
+.left p{
+  text-align: end;
+}
+.left a{
+  margin-left: 255px;
+
+}
+
+.fa-link{
+  font-size: 15px;
+}
+
+
+/* footer */
+
+.skewed-footer {
+  width: 100%;
+  height: 260px; /* Adjust as needed */
+  background-color: rgb(0, 0, 0); /* Red background color */
+  color: white;
+
+
+}
+
+.footercontent{
+  margin: 0 auto;
+  width: 80%;
+  height: 260px; /* Adjust as needed */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }

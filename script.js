@@ -43,3 +43,8 @@ $(document).ready(function(){
     slidesToScroll: 1 // Number of slides to scroll
   });
 });
+// scroll
+function scrollToProjects() {
+  var projectsSection = document.getElementById('projects');
+  projectsSection.scrollIntoView({ behavior: 'smooth' });
+}
