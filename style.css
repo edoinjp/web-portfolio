@@ -21,7 +21,7 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/img/port covert.png');
+  background-image: url('/img/portcovert.png');
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1; /* Ensure the overlay is behind content */
@@ -46,7 +46,7 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/img/port covert copy.png');
+  background-image: url('/img/portcovertcopy.png');
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1; /* Ensure the overlay is behind content */
@@ -58,7 +58,7 @@ a {
   height: 250px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url('/img/port covert copy.png');
+  background-image: url('/img/portcovertcopy.png');
 }
 
 .content-top nav {
