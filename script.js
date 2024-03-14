@@ -31,3 +31,15 @@ window.onload = function() {
 
   replaceText(newText.length - 1); // Start the animation immediately
 };
+
+  // slider
+
+$(document).ready(function(){
+  $('.slider').slick({
+    dots: true, // Show navigation dots
+    infinite: true, // Enable infinite loop
+    speed: 500, // Animation speed
+    slidesToShow: 1, // Number of slides to show at a time
+    slidesToScroll: 1 // Number of slides to scroll
+  });
+});
