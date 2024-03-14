@@ -48,3 +48,9 @@ function scrollToProjects() {
   var projectsSection = document.getElementById('projects');
   projectsSection.scrollIntoView({ behavior: 'smooth' });
 }
+function scrollToContact() {
+  var contactSection = document.getElementById('contact');
+  if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+  }
+}
