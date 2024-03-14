@@ -254,3 +254,7 @@ ul li:hover {
 .icons-container a:nth-child(8) {
   animation-delay: 0,1s
 }
+.icons-container a:hover {
+  animation-play-state: paused; /* Stop animation on hover */
+  filter: drop-shadow(0px 0px 20px  rgba(255, 255, 255, 0.288));
+}
