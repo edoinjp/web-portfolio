@@ -56,9 +56,9 @@ a {
 .skills {
   width: 100%;
   height: 250px;
+  background: url('img/portcovertcopy.png');
   background-size: cover;
   background-repeat: no-repeat;
-  background: url('img/portcovertcopy.png');
 }
 
 .content-top nav {
