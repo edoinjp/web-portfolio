@@ -273,7 +273,7 @@ ul li:hover {
   width: 50%;
 }
 .project-section{
-  width: 90%;
+  width: auto;
   /* padding-left: 50px; */
   display: flex;
   flex-direction: row;
