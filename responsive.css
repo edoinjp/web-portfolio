@@ -83,12 +83,29 @@
     flex-direction: column;
     justify-content: space-evenly;
   }
-  .project-section{
-    width: 100%;
+  .quickinfo h2{
+    margin-top: 15px;
+  }
+  #jobTitle{
+    font-size: 20px;
+  }
+  .projectinfo h1{
+    font-size: 40px;
   }
 
+  .icons-container img{
+    width: 50px;
+  }
 }
 
-@media (max-width: 800px) {
-
+@media (max-width: 600px) {
+  .foot{
+    display: none;
+  }
+  .contact-me{
+    margin:  0 auto;
+  }
+  .icons-container img{
+    width: 40px;
+  }
 }
