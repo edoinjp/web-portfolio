@@ -123,8 +123,8 @@ ul li:hover {
   transform: translateY(-50%);
 }
 .img {
-  width: 700px;
-  padding-left: 60px;
+  width: 750px;
+  /* padding-left: 60px; */
   filter: drop-shadow(5px 7px 10px rgba(192, 131, 181, 0.671));
   animation: levitate 2s infinite alternate; /* Adjust the duration and other animation properties as needed */
   /* background-color: gray; */
