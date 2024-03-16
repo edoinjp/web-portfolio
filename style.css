@@ -21,7 +21,7 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('img/portcovert.png');
+  background: url('img/imgbg/portcovert.png');
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1; /* Ensure the overlay is behind content */
@@ -47,7 +47,7 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('img/portcovertcopy.png');
+  background: url('img/imgbg/portcovertcopy.png');
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1; /* Ensure the overlay is behind content */
@@ -57,7 +57,7 @@ a {
 .skills {
   width: 100%;
   height: 250px;
-  background: url('img/portcovertcopy.png');
+  background: url('img/imgbg/portcovertcopy.png');
   padding-top: 90px;
   display: flex;
   justify-content: center; /* Align icons horizontally */
