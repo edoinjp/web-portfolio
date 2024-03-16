@@ -50,7 +50,9 @@
     flex-direction: column;
 
   }
-
+  .project-section{
+    margin-top: 80px;
+  }
 
   .maincontent img{
     width: 65%;
