@@ -97,6 +97,10 @@
   .icons-container img{
     width: 50px;
   }
+  .avatar1{
+    height: 300px;
+    width: 60%;
+  }
 }
 
 @media (max-width: 600px) {
@@ -111,5 +115,10 @@
   }
   .slider{
     width: 270px;
+  }
+  .avatar1{
+    margin-top: 5px;
+    height: 200px;
+    width: 70%;
   }
 }

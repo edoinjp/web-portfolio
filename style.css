@@ -136,14 +136,26 @@ ul li:hover {
 
 }
 .img {
-  width: 750px;
+  width: 500px;
+  height: 500;
   /* padding-left: 60px; */
-  filter: drop-shadow(5px 7px 10px rgba(192, 131, 181, 0.671));
+  filter: drop-shadow(5px 7px 10px rgb(134, 134, 134));
   animation: levitate 2s infinite alternate; /* Adjust the duration and other animation properties as needed */
   /* background-color: gray; */
   /* border-radius: 50%; */
 
 
+}
+.avatar1{
+  width: 50%;
+  height: 600px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  /* background-color: gray; */
+  justify-content: flex-end;
+  /* background-color: gray; */
+  margin-top: -90px;
 }
 
 @keyframes levitate {
@@ -164,7 +176,8 @@ ul li:hover {
   align-items: center;
 }
 .quickinfo {
-  height: 600px;
+  /* background-color: gray; */
+  height: 500px;
   width: 40%;
   color: white;
   display: flex;
