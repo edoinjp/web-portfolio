@@ -60,7 +60,11 @@ a {
 .skills {
   width: 100%;
   height: 250px;
-  background: url('img/imgbg/portcovertcopy-2.png');
+  /* background: url('img/imgbg/portcovertcopy-2.png'); */
+  /* background: rgba(26, 26, 26, 0.941); */
+  background: rgb(18,18,18);
+background: linear-gradient(188deg, rgba(18,18,18,1) 9%, rgba(32,32,32,1) 46%, rgba(8,8,8,1) 90%);
+  /* background: rgba(21, 21, 24, 0.949); */
   padding-top: 90px;
   display: flex;
   justify-content: center; /* Align icons horizontally */
@@ -340,11 +344,8 @@ ul li:hover {
 .skewed-footer {
   width: 100%;
   height: 300px;
-  background: rgb(0,0,0);
-  background: -moz-linear-gradient(18deg, rgba(0,0,0,1) 40%, rgba(46,48,51,1) 65%);
-  background: -webkit-linear-gradient(18deg, rgba(0,0,0,1) 40%, rgba(46,48,51,1) 65%);
-  background: linear-gradient(18deg, rgba(0,0,0,1) 40%, rgba(46,48,51,1) 65%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#2e3033",GradientType=1);
+  background: rgb(18,18,18);
+  background: linear-gradient(188deg, rgba(18,18,18,1) 9%, rgba(32,32,32,1) 46%, rgba(8,8,8,1) 90%);
   color: white;
 
 
