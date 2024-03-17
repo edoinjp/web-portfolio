@@ -410,3 +410,17 @@ ul li:hover {
 a:hover .phone-number {
   display: inline;
 } */
+
+
+/* avatar hover */
+.avatar1 .img:nth-child(1) {
+    display: none;
+  }
+
+  .avatar1:hover .img:nth-child(2) {
+    display: none;
+  }
+
+  .avatar1:hover .img:nth-child(1) {
+    display: inline-block;
+  }
