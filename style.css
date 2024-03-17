@@ -116,6 +116,7 @@ ul li:hover {
 }
 
 .title {
+  font-family: Impact, fantasy;
   position: relative;
   text-align: center;
   transition: transform 0.3s ease, text-shadow 0.3s ease; /* Adding text-shadow transition */
@@ -132,9 +133,7 @@ ul li:hover {
   left: 0;
   right: 0;
 
-  height: 2.5px; /* Adjust the thickness of the line */
-  background-color: rgb(255, 255, 255); /* Adjust the color of the line */
-  transform: translateY(-50%);
+
 }
 .img {
   width: 750px;
@@ -385,17 +384,8 @@ ul li:hover {
 
 }
 .foot {
-  font-size: 60px;
+  font-size: 30px;
   font-family: Impact, fantasy;
-  color: yellow;
-  text-shadow:
-    0px 1px 2px rgba(255, 255, 255, 0.2),
-    0px 2px 4px rgba(255, 255, 255, 0.2),
-    0px 4px 6px rgba(255, 255, 255, 0.2),
-    0px 8px 10px rgba(255, 255, 255, 0.2),
-    0px 16px 20px rgba(255, 255, 255, 0.2); /* Add multiple layers of shadows */
-  perspective: 1000px; /* Increase perspective for more depth */
-  transform: rotateY(20deg) translateZ(50px); /* Apply rotation and translation for a stronger 3D effect */
 }
 
 
