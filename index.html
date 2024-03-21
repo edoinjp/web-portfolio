@@ -6,6 +6,12 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="responsive.css" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
     <script
       src="https://kit.fontawesome.com/687277f223.js"
       crossorigin="anonymous"
@@ -29,27 +35,36 @@
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"
     ></script>
-    <link rel="icon" href="img/imgbg/53.png" type="image/png">
+    <link rel="icon" href="img/imgbg/53.png" type="image/png" />
     <title>eduard</title>
   </head>
   <body>
     <div class="content-top">
-      <nav>
-        <h1 class="title">エドワード</h1>
-        <ul>
-          <li><a href="#" onclick="scrollToProjects()">Projects</a></li>
-          <li><a href="#" onclick="scrollToContact()">Contact</a></li>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">エドワード</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-        </ul>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick="scrollToProjects()">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick="scrollToContact()">Contact</a>
+            </li>
+          </ul>
+        </div>
       </nav>
-      <div class="maincontent">
-          <div class="avatar1">
-            <!-- <img class="img" src="img/imgbg/planet5.png" alt="planet" /> -->
-            <img class="img" src="img/imgbg/67.png" alt="planet" />
-            <!-- planet img is second choice if avatar is not be used -->
-            <img class="img" src="img/imgbg/53.png" alt="planet" />
 
-          </div>
+      <div class="maincontent">
+        <div class="avatar1">
+          <!-- <img class="img" src="img/imgbg/planet5.png" alt="planet" /> -->
+          <img class="img" src="img/imgbg/67.png" alt="planet" />
+          <!-- planet img is second choice if avatar is not be used -->
+          <img class="img" src="img/imgbg/53.png" alt="planet" />
+        </div>
 
         <div class="quickinfo">
           <h1>Eduard Gurchiani</h1>
@@ -99,11 +114,10 @@
     </div>
     <div class="skills" id="skills">
       <div class="skillstitle">
-        <br>
+        <br />
         <h1>skills</h1>
-
       </div>
-      <br>
+      <br />
       <div class="icons-container">
         <a
           href="https://www.w3schools.com/css/"
@@ -182,7 +196,6 @@
           />
         </a>
       </div>
-
     </div>
     <div class="content-middle" id="projects">
       <div class="titleporject">
@@ -193,34 +206,19 @@
       <section class="project-section">
         <div class="slider">
           <div>
-            <img
-              src="img/uqimg/uq1.png"
-              alt="Image 1"
-            />
+            <img src="img/uqimg/uq1.png" alt="Image 1" />
           </div>
           <div>
-            <img
-              src="img/uqimg/uq2.png"
-              alt="Image 1"
-            />
+            <img src="img/uqimg/uq2.png" alt="Image 1" />
           </div>
           <div>
-            <img
-              src="img/uqimg/uq3.png"
-              alt="Image 1"
-            />
+            <img src="img/uqimg/uq3.png" alt="Image 1" />
           </div>
           <div>
-            <img
-              src="img/uqimg/uq4.png"
-              alt="Image 1"
-            />
+            <img src="img/uqimg/uq4.png" alt="Image 1" />
           </div>
           <div>
-            <img
-              src="img/uqimg/uq5.png"
-              alt="Image 1"
-            />
+            <img src="img/uqimg/uq5.png" alt="Image 1" />
           </div>
           <!-- Add more images as needed -->
         </div>
@@ -243,39 +241,23 @@
       <section class="project-section">
         <div class="slider">
           <div>
-            <img
-
-              src="img/img2/img1.png"
-              alt="Image 1"
-            />
+            <img src="img/img2/img1.png" alt="Image 1" />
           </div>
           <div>
-            <img
-              src="img/img2/img2.png"
-              alt="Image 1"
-            />
+            <img src="img/img2/img2.png" alt="Image 1" />
           </div>
           <div>
-            <img
-            src="img/img2/img3.png"
-              alt="Image 1"
-            />
+            <img src="img/img2/img3.png" alt="Image 1" />
           </div>
           <div>
-            <img
-            src="img/img2/img4.png"
-              alt="Image 1"
-            />
+            <img src="img/img2/img4.png" alt="Image 1" />
           </div>
           <div>
-            <img
-            src="img/img2/img5.png"
-              alt="Image 1"
-            />
+            <img src="img/img2/img5.png" alt="Image 1" />
           </div>
           <!-- Add more images as needed -->
         </div>
-        <div class="quickinfo projectinfo ">
+        <div class="quickinfo projectinfo">
           <h1>Friends For Benefits</h1>
           <h2 id="jobTitle">lead full-stack developer</h2>
           <p>
@@ -296,34 +278,19 @@
       <section class="project-section">
         <div class="slider">
           <div>
-            <img
-              src="img/psimg/ps1.png"
-              alt="Image 1"
-            />
+            <img src="img/psimg/ps1.png" alt="Image 1" />
           </div>
           <div>
-            <img
-              src="img/psimg/ps2.png"
-              alt="Image 2"
-            />
+            <img src="img/psimg/ps2.png" alt="Image 2" />
           </div>
           <div>
-            <img
-              src="img/psimg/ps3.png"
-              alt="Image 3"
-            />
+            <img src="img/psimg/ps3.png" alt="Image 3" />
           </div>
           <div>
-            <img
-              src="img/psimg/ps4.png"
-              alt="Image 4"
-            />
+            <img src="img/psimg/ps4.png" alt="Image 4" />
           </div>
           <div>
-            <img
-              src="img/psimg/ps5.png"
-              alt="Image 5"
-            />
+            <img src="img/psimg/ps5.png" alt="Image 5" />
           </div>
           <!-- Add more images as needed -->
         </div>
@@ -347,38 +314,57 @@
           </div>
         </div>
       </section>
+      <!-- <div class="foot title"></div>>
+
+        <h1 class="foot title">see more</h1>
+      </div> -->
     </div>
     <footer class="skewed-footer" id="contact">
       <div class="footercontent">
-        <h1 class=" foot title">エドワード</h1>
+        <h1 class="foot title">エドワード</h1>
         <div class="contact-me">
-            <h2 >contact me</h2>
+          <h2>contact me</h2>
 
-            <a href="tel:+1234567890">
-              <i class="fas fa-phone"></i>
-              <span class="phone-number">070-9119-9843</span>
-            </a>
+          <a href="tel:+1234567890">
+            <i class="fas fa-phone"></i>
+            <span class="phone-number">070-9119-9843</span>
+          </a>
 
-
-            <a href="mailto:eduardgurchiani@gmail.com">
-              <i class="fas fa-envelope"></i> eduardgurchiani@gmail.com
-            </a>
+          <a href="mailto:eduardgurchiani@gmail.com">
+            <i class="fas fa-envelope"></i> eduardgurchiani@gmail.com
+          </a>
 
           <div>
             <a href="https://linkedin.com/in/eduard-gurchiani" target="blank">
-              <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="20" width="35" />
+              <img
+                src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
+                alt="LinkedIn"
+                height="20"
+                width="35"
+              />
             </a>
             <a href="https://github.com/edoinjp" target="blank">
-              <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="GitHub" height="20" width="35" />
+              <img
+                src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg"
+                alt="GitHub"
+                height="20"
+                width="35"
+              />
             </a>
             <a href="https://instagram.com/eduard_gurchiani" target="blank">
-              <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="20" width="35" />
+              <img
+                src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg"
+                alt="Instagram"
+                height="20"
+                width="35"
+              />
             </a>
           </div>
         </div>
-
       </div>
     </footer>
     <script src="script.js"></script>
+
+
   </body>
 </html>

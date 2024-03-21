@@ -169,15 +169,15 @@ ul li:hover {
 .maincontent{
   display: flex;
   flex-direction: row;
-
   width: 90%;
   margin: 0 auto;
   align-items: center;
+  /* background-color: gray; */
 }
 .quickinfo {
   /* background-color: gray; */
-  height: 500px;
-  width: 40%;
+  height: 600px;
+  width: 50%;
   color: white;
   display: flex;
   flex-direction: column;
