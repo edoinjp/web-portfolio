@@ -70,7 +70,7 @@
   .quickinfo{
     text-align: center;
     align-items: center;
-    width: 65%;
+    width: 100%;
     justify-content: space-evenly;
     height: auto;
 
@@ -122,9 +122,8 @@
   .slider{
     width: 270px;
   }
-  /* .avatar1{
-    margin-top: 5px;
-    height: 200px;
-    width: 70%;
-  } */
+  .avatar1{
+    height: 300px;
+
+  }
 }

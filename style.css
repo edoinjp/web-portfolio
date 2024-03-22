@@ -147,7 +147,8 @@ ul li:hover {
 }
 .avatar1{
   width: 50%;
-  height: 600px;
+ height: 600px;
+  border-radius: 50%;
   display: flex;
   margin: 0 auto;
   align-items: center;
@@ -155,6 +156,7 @@ ul li:hover {
   justify-content: flex-end;
   /* background-color: gray; */
   margin-top: -90px;
+/* background-color: gray; */
 }
 
 @keyframes levitate {
