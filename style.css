@@ -389,6 +389,9 @@ ul li:hover {
   align-items: center;
 
 }
+.contact-me a{
+  color: white;
+}
 .contact-me h2{
   font-size: 20px;
   font-family: Impact, fantasy;
