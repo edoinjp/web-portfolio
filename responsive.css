@@ -45,8 +45,7 @@
     justify-content: space-evenly;
   }
   .maincontent{
-    /* height: 1500px; Adjust height for smaller screens */
-    height: 1200px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
